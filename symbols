@@ -72,6 +72,7 @@ libdex-1.so.1:dex_file_enumerator_next_files
 libdex-1.so.1:dex_file_info_list_get_type
 libdex-1.so.1:dex_file_load_contents_bytes
 libdex-1.so.1:dex_file_make_directory
+libdex-1.so.1:dex_file_query_exists
 libdex-1.so.1:dex_file_query_info
 libdex-1.so.1:dex_file_read
 libdex-1.so.1:dex_file_replace
