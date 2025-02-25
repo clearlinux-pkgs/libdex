@@ -149,6 +149,7 @@ libdex-1.so.1:dex_promise_new_cancellable
 libdex-1.so.1:dex_promise_reject
 libdex-1.so.1:dex_promise_resolve
 libdex-1.so.1:dex_promise_resolve_boolean
+libdex-1.so.1:dex_promise_resolve_boxed
 libdex-1.so.1:dex_promise_resolve_double
 libdex-1.so.1:dex_promise_resolve_fd
 libdex-1.so.1:dex_promise_resolve_float
