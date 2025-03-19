@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : libdex
-Version  : 0.9.1
-Release  : 13
-URL      : https://gitlab.gnome.org/GNOME/libdex/-/archive/0.9.1/libdex-0.9.1.tar.gz
-Source0  : https://gitlab.gnome.org/GNOME/libdex/-/archive/0.9.1/libdex-0.9.1.tar.gz
+Version  : 0.10.0
+Release  : 14
+URL      : https://gitlab.gnome.org/GNOME/libdex/-/archive/0.10.0/libdex-0.10.0.tar.gz
+Source0  : https://gitlab.gnome.org/GNOME/libdex/-/archive/0.10.0/libdex-0.10.0.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -68,10 +68,10 @@ license components for the libdex package.
 
 
 %prep
-%setup -q -n libdex-0.9.1
-cd %{_builddir}/libdex-0.9.1
+%setup -q -n libdex-0.10.0
+cd %{_builddir}/libdex-0.10.0
 pushd ..
-cp -a libdex-0.9.1 buildavx2
+cp -a libdex-0.10.0 buildavx2
 popd
 
 %build
@@ -79,7 +79,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1740498615
+export SOURCE_DATE_EPOCH=1742420317
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
